@@ -1,0 +1,2 @@
+const e=(e,o)=>new Promise(r=>setTimeout(()=>r(e),o));function o(e){let o=Math.floor(7e3*Math.random())+500;return new Promise(r=>{setTimeout(()=>{r(e)},o)})}Promise.all([e("1",1488),e("2",52),e("3",4895),e("4",823),e("5",2e3)]).then(e=>{console.log(e)}).catch(e=>{console.error(e)}),Promise.race([o("1"),o("2"),o("3"),o("4"),o("5")]).then(e=>{console.log(e)}).catch(e=>{console.error(e)});
+//# sourceMappingURL=HW-4-14.cc3f8dcc.js.map
